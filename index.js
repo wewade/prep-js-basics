@@ -8,6 +8,9 @@
 * Fill out the values for these with your own data or make it up. It should contain a String
 **/
 
+var first_name = 'puggy';
+var last_name = "squishy";
+var birth_place = 'tokyo';
 
 
 /**
@@ -18,6 +21,9 @@
 * Their values should be a Number
 **/
 
+var favorite_number = 3;
+var current_year = 2015;
+var that_one_prince_song = 1999;
 
 
 /**
@@ -27,6 +33,11 @@
 * declare variables named `isDaytime`, `isLeftHanded`, `inHawaii`, and `isHappyCoding`
 * Their values should be a Boolean
 **/
+
+var isDaytime = false;
+var isLeftHanded = false;
+var inHawaii = true;
+var isHappyCoding = true;
 
 
 
@@ -38,6 +49,8 @@
 * Their values should be a Null value
 **/
 
+var enrolledAtDevLeague = null;
+var completedFridayPrep = null;
 
 /**
 * #5a
@@ -47,7 +60,7 @@
 * which can be found along the west coast of The United States.
 **/
 
-
+var west_coast = ["Oregon", "Washington", "California", "Utah", "Nevada"];
 
 /**
 * #5b
@@ -57,11 +70,16 @@
 * are considered 'even values'. Have at least ten even values in this array
 **/
 
-
+var even_numbers = [2, 4, 6, 8];
 
 /**
 * #6a Arithmetic
 */
+
+var sum = 5 + 8;
+var difference = 2 - 1;
+var multiply = 3 * 9;
+var divide = 8 / 2;
 
 
 
@@ -69,12 +87,20 @@
 * #6b Comparisons & Logic
 */
 
+var pass = result > 70;
+var fail = result < 70;
+var excel = result === 100;
+
+
 
 
 /**
 * #6c Assignments
 */
 
+var breakfast = "fruits" + "pancakes";
+var fruits = bananas++;
+var pancakes = flapjacks += shortstack;
 
 
 /**
@@ -89,7 +115,10 @@
 * store the return value to a variable and use console.log to inspect the value which was passed back by your function
 **/
 
-
+function jump(height){
+  return "You jumped ' + height + ' feet high!" ;
+}
+jump(9);
 
 /**
 * #7b
@@ -102,6 +131,11 @@
 **/
 
 
+function cook(ingredient1, ingredient2, recipeName){
+  return "ingredient1 ' + 'and ' + ' ingredient2 ' + 'make a ' + ' recipeName";
+}
+cook("tomatoes", "cheese", "pizza");
+
 
 /**
 * #7c
@@ -110,3 +144,8 @@
 * declare Function named
 * Their values should be a Number
 **/
+
+function sum(n1, n2){
+  return n1 + n2;
+}
+sum(1, 2);
