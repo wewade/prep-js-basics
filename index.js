@@ -116,15 +116,16 @@ var pancakes = flapjacks += shortstack;
 **/
 
 function jump(height){
+  var jumped = height;
+  console.log(jumped);
   return "You jumped ' + height + ' feet high!" ;
 }
-jump(9);
 
 /**
 * #7b
 * Declare Functions
 *
-* declare a Function named `cook` which a takes a three arguments, `ingredient1`, `ingredient2`, `recipeName`
+* declare a Function named `cook` which a takes a three arguments, `ingredient1`, `ingredient2`, `recipeName` 
 *
 * this function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
@@ -134,8 +135,8 @@ jump(9);
 function cook(ingredient1, ingredient2, recipeName){
   return "ingredient1 ' + 'and ' + ' ingredient2 ' + 'make a ' + ' recipeName";
 }
-cook("tomatoes", "cheese", "pizza");
 
+console.log(cook('tomatoes', 'cheese', 'pizza'));
 
 /**
 * #7c
@@ -148,4 +149,4 @@ cook("tomatoes", "cheese", "pizza");
 function sum(n1, n2){
   return n1 + n2;
 }
-sum(1, 2);
+console.log(sum(1, 2));
