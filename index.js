@@ -1,4 +1,4 @@
-//http://jsbin.com/cidonekiza/edit?js,console //exercises and solutions on jsbin 
+//http://jsbin.com/pupazuyano/edit?js,console
 
 /* create variables */
 
@@ -139,6 +139,8 @@ console.log(generalContainer); //3
 generalContainer = generalContainer %= 2;
 console.log(generalContainer); //1
 
+//add comment
+
 /**
 * #7a
 * Declare Functions
@@ -172,14 +174,14 @@ console.log(hops);
 **/
 
 function cook(ingredient1, ingredient2, recipeName){
-  return "ingredient1 " + and + " ingredient2 " + make a + "recipeName";
-
+  return ingredient1 + " and " + ingredient2 + " make a " + recipeName + "!";
 }
 
 cook("tomatoes", "cheese", "pizza");
 
 var dinner = cook("tomatoes", "cheese", "pizza");
 console.log(dinner);
+
 
 /*
 function cook(ingredient1, ingredient2, recipeName){
