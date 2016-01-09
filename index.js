@@ -190,12 +190,12 @@ function cook(ingredient1, ingredient2, recipeName){
 
 console.log(cook('tomatoes', 'cheese', 'pizza'));*/
 
-
+/*
 function cook(ingredient1, ingredient2, recipeName){
   return ingredient1 + " " + "add" + " " + ingredient2 + " " + "make a" + " " + recipeName;
 }
 var dinner = cook("tomatoes", "cheese", "pizza");
-console.log(dinner);
+console.log(dinner);*/
 
 
 /**
