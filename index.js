@@ -10,11 +10,13 @@
 * Fill out the values for these with your own data or make it up. It should contain a String
 **/
 
-var firstName = "squishy";
-var lastName = "worm";
-var birthPlace = "Tokyo";
+var firstName = "Samuel";
+var lastName = "Jaxson";
+var birthPlace = "hollywood";
 
-
+console.log('firstName:', firstName);
+console.log('lastName:', lastName);
+console.log('birthPlace:',  birthPlace);
 /**
 * #2
 * Variables with a Number as their value
@@ -27,6 +29,9 @@ var favoriteNumber = 8;
 var currentYear = 2016;
 var thatOnePrinceSong = 1999;
 
+console.log('favoriteNumber: ' + favoriteNumber);
+console.log('currentYear: ' + currentYear);
+console.log('thatOnePrinceSong: ' + thatOnePrinceSong);
 
 /**
 * #3
@@ -41,6 +46,9 @@ var isLeftHanded = false;
 var inHawaii = true;
 var isHappyCoding = true;
 
+console.log('isDayTime: ' + isDaytime);
+console.log('isLeftHanded: ' + isLeftHanded);
+console.log('isHappyCoding: ' + isHappyCoding);
 
 
 /**
@@ -54,6 +62,8 @@ var isHappyCoding = true;
 var enrolledAtDevLeague = null;
 var completedFridayPrep = null;
 
+console.log('enrolledAtDevLeague: ' + enrolledAtDevLeague);
+console.log('completedFridayPrep: ' + completedFridayPrep);
 /**
 * #5a
 * Variables with an Array for it's value. This Array will contain:
@@ -64,6 +74,7 @@ var completedFridayPrep = null;
 
 var westCoast = ["Oregon", "Washington", "California"];
 
+console.log('wesssstsiide: ' + westCoast);
 /**
 * #5b
 * Variables with an Array for it's value. This Array will contain:
@@ -73,6 +84,8 @@ var westCoast = ["Oregon", "Washington", "California"];
 **/
 
 var evenNumbers = [2, 4, 6, 8, 10];
+
+console.log('evenNumbers: ' + evenNumbers);
 
 /**
 * #6a Arithmetic
@@ -89,6 +102,11 @@ var differenceOfNumbers = 3 - 2- 1;
 var productOfNumbers = 2*4*6;
 var quotentOfNumbers = (10 / 5) / 2; 
 
+console.log('sumOfNumbers 1 + 2 + 3 = ' + sumOfNumbers);
+console.log('differenceOfNumbers 3 - 2- 1 = ' + differenceOfNumbers);
+console.log('productOfNumbers 2 * 4 * 6 = ' + productOfNumbers);
+console.log('quotentOfNumbers = (10/5) / 2 = ' + quotentOfNumbers);
+
 /**
 * #6b Comparisons & Logic
 * Variables with the outcome of a comparison operation:
@@ -100,13 +118,13 @@ var quotentOfNumbers = (10 / 5) / 2;
 */
 
 var isEqual = "Tacocat" == "tacocat";
-console.log(isEqual); //false
+console.log('isEqual: ' + isEqual); //false
 
 var isSame = 5 == "5";
-console.log(isSame); //true
+console.log('isSame: ' + isSame); //true
 
 var isSame = 5 === "5";
-console.log(isSame); //false
+console.log('isSame: ' + isSame); //false
 
 
 /**
@@ -122,22 +140,22 @@ console.log(isSame); //false
 */
 
 var generalContainer = 7; //assignment number
-console.log(generalContainer); //7
+console.log('generalContainer ' + generalContainer); //7
 
 generalContainer = generalContainer += 1;
-console.log(generalContainer); //8 
+console.log('generalContainer += 1 = ' + generalContainer); //8 
 
 generalContainer = generalContainer -= 2;
-console.log(generalContainer); // 6
+console.log('generalContainer -= 2 = ' + generalContainer); // 6
 
 generalContainer = generalContainer *= 3;
-console.log(generalContainer); //18
+console.log('generalContainer *= 3 = ' + generalContainer); //18
 
 generalContainer = generalContainer /= 6;
-console.log(generalContainer); //3
+console.log('generalContainer /= 6 = ' + generalContainer); //3
 
 generalContainer = generalContainer %= 2;
-console.log(generalContainer); //1
+console.log('generalContainer %= 2 = ' + generalContainer); //1
 
 
 
@@ -154,12 +172,15 @@ console.log(generalContainer); //1
 **/
 
 function jump(height){
+  /*console.log("You jumped " + height + " feet high!");*/
   return "You jumped " + height + " feet high!";
 }
 
-jump(9);
 
-var hops = jump(9);
+jump();
+/*jump();*/
+
+var hops = jump(11);
 console.log(hops);
 
 
@@ -177,25 +198,18 @@ function cook(ingredient1, ingredient2, recipeName){
   return ingredient1 + " and " + ingredient2 + " make a " + recipeName + "!";
 }
 
-cook("tomatoes", "cheese", "pizza");
+/*cook("tomatoes", "cheese", "pizza");*/
 
-var dinner = cook("tomatoes", "cheese", "pizza");
+var dinner = cook("natto", "uni", "pizza");
 console.log(dinner);
 
 
-/*
-function cook(ingredient1, ingredient2, recipeName){
-  return "ingredient1 ' + 'and ' + ' ingredient2 ' + 'make a ' + ' recipeName";
-}
 
-console.log(cook('tomatoes', 'cheese', 'pizza'));*/
 
-/*
-function cook(ingredient1, ingredient2, recipeName){
-  return ingredient1 + " " + "add" + " " + ingredient2 + " " + "make a" + " " + recipeName;
-}
-var dinner = cook("tomatoes", "cheese", "pizza");
-console.log(dinner);*/
+
+
+
+
 
 
 /**
@@ -205,8 +219,8 @@ console.log(dinner);*/
 * declare Function named
 * Their values should be a Number
 **/
-
+/*
 function sum(n1, n2){
   return n1 + n2;
 }
-console.log(sum(1, 2));
+console.log(sum(1, 2));*/
