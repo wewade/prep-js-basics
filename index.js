@@ -75,6 +75,8 @@ console.log('completedFridayPrep: ' + completedFridayPrep);
 var westCoast = ["Oregon", "Washington", "California"];
 
 console.log('wesssstsiide: ' + westCoast);
+
+
 /**
 * #5b
 * Variables with an Array for it's value. This Array will contain:
