@@ -76,6 +76,10 @@ var westCoast = ["Oregon", "Washington", "California"];
 
 console.log('wesssstsiide: ' + westCoast);
 
+var hawaiianIslands = ["Oahu", "Hawaii", "Kauai", "Lanai", "Molokai", "Maui", "Kahoolawe", "Molokini", "Niihau"];
+
+console.log(hawaiianIslands);
+
 
 /**
 * #5b
@@ -174,16 +178,28 @@ console.log('generalContainer %= 2 = ' + generalContainer); //1
 **/
 
 function jump(height){
-  /*console.log("You jumped " + height + " feet high!");*/
-  return "You jumped " + height + " feet high!";
+  
+  return "You jumped " + height + " feet high";
 }
+jump(); 
+
+var joke = jump(10);
+console.log(joke);
 
 
-jump();
+
+
+/*function jump(height){*/
+  /*console.log("You jumped " + height + " feet high!");*/
+  /*return "You jumped " + height + " feet high!";
+}*/
+
+
+/*jump();*/
 /*jump();*/
 
-var hops = jump(11);
-console.log(hops);
+/*var hops = jump(11);
+console.log(hops);*/
 
 
 /**
@@ -195,15 +211,25 @@ console.log(hops);
 * This function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
-
-function cook(ingredient1, ingredient2, recipeName){
-  return ingredient1 + " and " + ingredient2 + " make a " + recipeName + "!";
+function cook(ingredient1, ingredient2, recipe){
+  return ingredient1 + " and " + ingredient2 + " make a " + recipe + " !";
 }
+cook();
+
+var whatWeEat = cook(5, true, "sandwich");
+console.log(whatWeEat);
+
+
+
+
+/*function cook(ingredient1, ingredient2, recipeName){
+  return ingredient1 + " and " + ingredient2 + " make a " + recipeName + "!";
+}*/
 
 /*cook("tomatoes", "cheese", "pizza");*/
 
-var dinner = cook("natto", "uni", "pizza");
-console.log(dinner);
+/*var dinner = cook("natto", "uni", "pizza");
+console.log(dinner);*/
 
 
 
