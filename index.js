@@ -10,29 +10,28 @@
 * Fill out the values for these with your own data or make it up. It should contain a String
 **/
 
-var firstName = "Samuel";
-var lastName = "Jaxson";
-var birthPlace = "hollywood";
+var firstName = "Wendell";
+var lastName = "Wade";
+var birthPlace ="Chicago";
 
-console.log('firstName:', firstName);
-console.log('lastName:', lastName);
-console.log('birthPlace:',  birthPlace);
-/**
-* #2
-* Variables with a Number as their value
-*
-* Declare variables named `favoriteNumber`, `currentYear`, and `thatOnePrinceSong`.
-* Their values should be a Number
-**/
 
-var favoriteNumber = 8;
-var currentYear = 2016;
-var thatOnePrinceSong = 1999;
+console.log("firstName:" , firstName);
+console.log("lastName:" , lastName);
+console.log("birthPlace:" , birthPlace);
 
-console.log('favoriteNumber: ' + favoriteNumber);
-console.log('currentYear: ' + currentYear);
-console.log('thatOnePrinceSong: ' + thatOnePrinceSong);
+ 
 
+//#2
+ var favoriteNumber = 1506;
+ var currentyear = 2016;
+ var thatOnePrinceSong = 1999;
+
+ console.log ("favoriteNumber:" , + favoriteNumber);
+ console.log ("currentyear" , + currentyear);
+ console.log ("thatOnePrinceSong" , + thatOnePrinceSong);
+
+
+  
 /**
 * #3
 * Variables with Boolean values
@@ -41,15 +40,19 @@ console.log('thatOnePrinceSong: ' + thatOnePrinceSong);
 * Their values should be a Boolean
 **/
 
-var isDaytime = false;
-var isLeftHanded = false;
-var inHawaii = true;
-var isHappyCoding = true;
 
-console.log('isDayTime: ' + isDaytime);
-console.log('isLeftHanded: ' + isLeftHanded);
-console.log('isHappyCoding: ' + isHappyCoding);
 
+ var isDaytime = true;
+ var isLeftHanded = false;
+ var isHappyCoding = true;
+
+ console.log("isDaytime" , + isDaytime);
+ console.log("isLeftHanded" , + isLeftHanded);
+ console.log("isHappyCoding" , + isHappyCoding);
+
+ 
+
+  
 
 /**
 * #4
@@ -57,13 +60,30 @@ console.log('isHappyCoding: ' + isHappyCoding);
 *
 * Declare variables named `enrolledAtDevLeague` and `completedFridayPrep`
 * Their values should be a Null value
+
+var
+
+
+
+
 **/
 
-var enrolledAtDevLeague = null;
+var enrolledAtDevleague = null;
 var completedFridayPrep = null;
 
-console.log('enrolledAtDevLeague: ' + enrolledAtDevLeague);
-console.log('completedFridayPrep: ' + completedFridayPrep);
+console.log("enrolledAtDevleague" , enrolledAtDevleague);
+console.log("enrolledAtDevleague" , enrolledAtDevleague);
+
+
+var hawaiianislands =["oahu" ,"Maui" , "Lanai" , "Niihau" ,"BigIsland" ,"Molokini"];
+
+console.log(hawaiianislands);
+
+ 
+
+
+ 
+ 
 /**
 * #5a
 * Variables with an Array for it's value. This Array will contain:
@@ -72,15 +92,8 @@ console.log('completedFridayPrep: ' + completedFridayPrep);
 * which can be found along the west coast of The United States.
 **/
 
-var westCoast = ["Oregon", "Washington", "California"];
 
-console.log('wesssstsiide: ' + westCoast);
-
-var hawaiianIslands = ["Oahu", "Hawaii", "Kauai", "Lanai", "Molokai", "Maui", "Kahoolawe", "Molokini", "Niihau"];
-
-console.log(hawaiianIslands);
-
-
+ 
 /**
 * #5b
 * Variables with an Array for it's value. This Array will contain:
@@ -89,10 +102,9 @@ console.log(hawaiianIslands);
 * are considered 'even values'. Have at least ten even values in this array.
 **/
 
-var evenNumbers = [2, 4, 6, 8, 10];
 
-console.log('evenNumbers: ' + evenNumbers);
 
+ 
 /**
 * #6a Arithmetic
 * Variables with the outcome of an arithmetic operation:
@@ -102,18 +114,20 @@ console.log('evenNumbers: ' + evenNumbers);
 *
 * Extend this behavior to include subtraction, multiplication and division. 
 */
+var sumOfNumbers = 2 + 2 + 2;
+var differenceofNumbers =6 - 4 -1;
+var productsofNumbers = 2*4*6;
 
-var sumOfNumbers = 1 + 2 + 3;
-var differenceOfNumbers = 3 - 2- 1;
-var productOfNumbers = 2*4*6;
-var quotentOfNumbers = (10 / 5) / 2; 
 
-console.log('sumOfNumbers 1 + 2 + 3 = ' + sumOfNumbers);
-console.log('differenceOfNumbers 3 - 2- 1 = ' + differenceOfNumbers);
-console.log('productOfNumbers 2 * 4 * 6 = ' + productOfNumbers);
-console.log('quotentOfNumbers = (10/5) / 2 = ' + quotentOfNumbers);
-
+console.log(sumOfNumbers)
+ 
 /**
+
+
+
+
+
+
 * #6b Comparisons & Logic
 * Variables with the outcome of a comparison operation:
 *
@@ -123,15 +137,8 @@ console.log('quotentOfNumbers = (10/5) / 2 = ' + quotentOfNumbers);
 * BONUS: See if you can come up with a few examples of double comparison operator(==) vs triple comparison operator(===)
 */
 
-var isEqual = "Tacocat" == "tacocat";
-console.log('isEqual: ' + isEqual); //false
-
-var isSame = 5 == "5";
-console.log('isSame: ' + isSame); //true
-
-var isSame = 5 === "5";
-console.log('isSame: ' + isSame); //false
-
+ var isEqual ="Tacocat"== "tacocat";
+ console.log(isEqual)
 
 /**
 * #6c Assignments
@@ -144,24 +151,18 @@ console.log('isSame: ' + isSame); //false
 * Write 5 different assignment statements and `console.log()` the value of the variable after each 
 * assignment statement to show the current value.
 */
+ 
+var generalContainer = 7;
+console.log("generalContainer" + generalContainer);
 
-var generalContainer = 7; //assignment number
-console.log('generalContainer ' + generalContainer); //7
+generalContainer = generalContainer +=1;
+console.log(generalContainer);
 
-generalContainer = generalContainer += 1;
-console.log('generalContainer += 1 = ' + generalContainer); //8 
+generalContainer = generalContainer +=2
+console.log(generalContainer)
 
-generalContainer = generalContainer -= 2;
-console.log('generalContainer -= 2 = ' + generalContainer); // 6
 
-generalContainer = generalContainer *= 3;
-console.log('generalContainer *= 3 = ' + generalContainer); //18
-
-generalContainer = generalContainer /= 6;
-console.log('generalContainer /= 6 = ' + generalContainer); //3
-
-generalContainer = generalContainer %= 2;
-console.log('generalContainer %= 2 = ' + generalContainer); //1
+ 
 
 
 
@@ -177,14 +178,14 @@ console.log('generalContainer %= 2 = ' + generalContainer); //1
 * Store the return value to a variable and use console.log to inspect the value which was passed back by your function
 **/
 
-function jump(height){
-  
-  return "You jumped " + height + " feet high";
-}
-jump(); 
+ function jump(height){
 
-var joke = jump(10);
-console.log(joke);
+return "You jumped " + height + " feet high";
+
+
+ }
+jump(9);
+console.log (jump(9));
 
 
 
@@ -211,16 +212,15 @@ console.log(hops);*/
 * This function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
-function cook(ingredient1, ingredient2, recipe){
-  return ingredient1 + " and " + ingredient2 + " make a " + recipe + " !";
+ 
+function cook(ingredient1, ingredient2, recipeName){
+
+	return ingredient1 +  " and " +  ingredient2  +  " make a " + recipeName + "!";
 }
-cook();
 
-var whatWeEat = cook(5, true, "sandwich");
-console.log(whatWeEat);
+cook("Tomatoes" ,  "Onion" , "Cheese");
 
-
-
+console.log(cook("Tomatoes" , "Onion" , "Pizza"))
 
 /*function cook(ingredient1, ingredient2, recipeName){
   return ingredient1 + " and " + ingredient2 + " make a " + recipeName + "!";
